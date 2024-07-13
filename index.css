@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #28303b;
+    margin: 0;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.header {
+    background-color: #763435;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    width: auto;
+}
+    .homeBTN {
+        display: flex;
+        font-family: serif;
+        transition-duration: 0.5s;
+    }
+
+    .homeBTN:hover {
+        color: Aqua;
+    }
+
+    .headerTitle {
+        margin: 20px;
+        font-size: 30px;
+    }
+
+    .logo {
+        max-width: 70px;
+        max-height: auto;
+    }
+
+    .header, .links {
+        display: flex;
+        flex: 1;
+        width: auto;
+        align-items: center;
+        padding: 10px 30px; 
+        color: white  
+    }
+
+    .links, a {
+        justify-content: end;
+        gap: 40px;
+        font-size: 25px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        color: white;
+    }
+
+    .links a:hover {
+        color:aqua;
+        text-decoration: underline;
+    }
+
+    .header #headerSearchBar {
+        padding: 10px;
+        width: 300px;
+        border: 1px black;
+        background-color:#763435;
+        font-size: large;
+        border-style: none none solid none;
+    }
+        .headerSearchBar {
+            display: block;            
+        }
+
+        .headerSearchBar button {
+            padding: 8px;
+            border-radius: 100px;
+            font-weight: 900;
+            transition-duration: 0.5s;
+            border: 1px black;
+            background-color: #763435;
+        }
+
+.headerMain {
+    font-size: 30px;
+    color: aliceblue;
+    background-image: url(assets/E-Library\ Cover.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+    border: 2px darkred;
+}
+    .info {
+        display: flex;
+        left: 0;
+        right: 0;
+        margin: 150px;
+        z-index: 9999;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerMain h1 {
+        text-shadow: 2px 2px 6px black, 0 0 1em black, 0 0 0.2em black
+    }
+
+    .headerMain .info #mainSearchBar {
+        width: 400px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px black;
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .headerMain button {
+        height: 50px;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        border: 1px black;
+        width: 100px;
+        font-size: large;
+        font-weight: 900;
+        transition-duration: 0.5s;
+    }
+
+    button:hover {
+        background-color: #B01E68; 
+        color: #e5e7eb;
+    }
+
+footer {
+    background-color: #B01E68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #e5e7eb;
+    padding: 20px;
+}

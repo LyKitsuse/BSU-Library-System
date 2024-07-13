@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BulSu Library System</title>
+
+    <style>
+        .body {
+            display: flex;
+            flex: auto;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login, fieldset {
+            max-width: 500px;
+            width: 500px;
+            height: 500px;
+            max-height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }           
+        
+        #loginBTN {
+            padding: 10px;
+            border-radius: 15px;
+            width: 90px;
+            margin: 40px;
+        }
+
+        #usernameInput, #passwordInput {
+            height: 30px;
+        }
+
+        .password, .username {
+            display: flex;
+            margin: 10px;
+        }
+
+        .usernameInput, .passwordInput {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <fieldset>
+            <form class="login">
+                <div class="username">
+                    <h4><label for="username" class="usernameInput">Username</label></h4>
+                    <input type="text" value="" id="usernameInput">
+                </div>
+                
+                <div class="password">
+                    <h4><label for="password" class="passwordInput">Password</label></h4>
+                    <input type="password" value="" id="passwordInput">
+                </div>
+                
+
+                <button type="submit" id="loginBTN">Log in</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
